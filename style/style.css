@@ -1,0 +1,11 @@
+.my-content {
+    max-width: 1920px;
+}
+
+.cursor:hover {
+    cursor: pointer;
+}
+
+canvas {
+    min-width: 700px !important;
+}
