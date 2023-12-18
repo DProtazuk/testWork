@@ -18,7 +18,7 @@ class History
     }
 
     public function select() {
-        $sql = "SELECT * FROM `history`";
+        $sql = "SELECT * FROM `history` ORDER BY `data_status` DESC";
         $query = DB::сonnect()->query($sql);
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
